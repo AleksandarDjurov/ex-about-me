@@ -1,0 +1,45 @@
+.nav-link{
+    text-decoration: none;
+}
+
+.nav-link :hover{
+    text-decoration: underline whitesmoke;
+}
+
+.pFooterHeader{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 18%;
+    font-weight: 500;
+
+    @media screen and (max-width: 1000px) {
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+.pFooterItem{
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 20%;
+    @media screen and (max-width: 1000px) {
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+.pFooterCopyright{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 200;
+
+    margin: 0 auto; 
+    margin-top: 1%;
+
+    @media screen and (max-width: 1000px) {
+        margin-top: 4%;
+    }
+}
